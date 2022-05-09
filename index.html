@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Sen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5996a0a5b5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pradeep's Portfolio</title>
+  </head>
+  <body>
+    <!-- === Header === -->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Pradeep</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="fa-solid fa-house nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="fa-solid fa-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="fa-solid fa-file-lines nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="fa-solid fa-briefcase nav__icon"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="fa-solid fa-window-maximize nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="fa-solid fa-rocket nav__icon"></i> Shoot DM
+              </a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme Change Button -->
+          <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- === Header === -->
+
+    <!-- === Main === -->
+
+    <main class="main">
+      <!-- HOME -->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/pradeep__bhandari/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-instagram-square"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/02_pradeep"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <a
+                href="https://github.com/pradeep-bha"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-7"
+                    y="7"
+                    href="images/profile.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Pradeep</h1>
+              <h3 class="home__subtitle">Frontend Developer</h3>
+              <p class="home__description">
+                Curious about every aspect of Design and Building things.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me
+                <i class="fa-solid fa-rocket button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="fa-brands fa-hashnode home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOME -->
+
+      <!-- About -->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <div class="about__container container grid">
+          <img src="images/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Web developer who can't express his love for JavaScript. UI/UX
+              designer from heart. JavaScript || React Js || Figma
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">20+</span>
+                <span class="about__info-name"
+                  >Design <br />
+                  made using Figma</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">30+</span>
+                <span class="about__info-name"
+                  >Projects <br />
+                  created (JS & React Js)</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">10+</span>
+                <span class="about__info-name"
+                  >Happy<br />
+                  client served</span
+                >
+              </div>
+            </div>
+
+            <div class="about__button">
+              <a download="" href="" class="button button--flex">
+                Download CV <i class="fa-solid fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <!-- Skills -->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Tools & Languages</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!-- SKILL 1 -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="fa-solid fa-code skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Frontend developer</h1>
+                  <span class="skills__subtitle">More than 1 year</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">90%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SKILL 2 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fa-solid fa-swatchbook skills__icon design"></i>
+
+                <div>
+                  <h1 class="skills__title">Design</h1>
+                  <span class="skills__subtitle">More than 1 year</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">UI</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ui"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">UX</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__ux"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Prototyping</h3>
+                    <span class="skills__number">65%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__proto"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Wireframing</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__wire"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- SKILL 3 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="fa-brands fa-wix skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Wix</h1>
+                  <span class="skills__subtitle">More than 3 years</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Landing page</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__land"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Responsive website</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__responsive"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SEO</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__seo"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+
+      <!-- Qualification -->
+
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My Journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-user-graduate qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="fa-solid fa-suitcase qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!-- Qualification Content 1 -->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!-- Qualification 1 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Computer Engineer</h3>
+                  <span class="qualification__subtitle">
+                    Peru - University
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2009 - 2014
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <span class="qualification__line"> </span>
+                </div>
+              </div>
+
+              <!-- Qualification 2 -->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <span class="qualification__line"> </span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Web Design</h3>
+                  <span class="qualification__subtitle">
+                    Spain - Institute
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2014 - 2017
+                  </div>
+                </div>
+              </div>
+
+              <!-- Qualification 3 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Development</h3>
+                  <span class="qualification__subtitle">
+                    Peru - Institute
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2017 - 2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <span class="qualification__line"> </span>
+                </div>
+              </div>
+
+              <!-- Qualification 4 -->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <!-- <span class="qualification__line"> </span> -->
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Master in UI/UX</h3>
+                  <span class="qualification__subtitle">
+                    France - Institute
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2019 - 2021
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Qualification Content 2 -->
+            <div class="qualification__content" data-content id="work">
+              <!-- Qualification 1 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Engineer</h3>
+                  <span class="qualification__subtitle"> Apple Inc - US </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2016 - 2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <span class="qualification__line"> </span>
+                </div>
+              </div>
+
+              <!-- Qualification 2 -->
+
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <span class="qualification__line"> </span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Frontend Developer</h3>
+                  <span class="qualification__subtitle"> Tesla - Spain </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018 - 2020
+                  </div>
+                </div>
+              </div>
+
+              <!-- Qualification 3 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">UI Designer</h3>
+                  <span class="qualification__subtitle"> Figma - Spain </span>
+                  <div class="qualification__calendar">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2017 - 2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"> </span>
+                  <!-- <span class="qualification__line"> </span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Qualification -->
+
+      <!-- Services -->
+
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What i offer</span>
+
+        <div class="services__container container grid">
+          <!-- Services 1 -->
+          <div class="services__content">
+            <div>
+              <i class="fa-solid fa-table-cells-large services__icon"></i>
+              <h3 class="services__title">
+                UI/UX <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="fa-solid fa-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="fa-solid fa-xmark services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>Web page development</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I position your company brand.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services 2 -->
+          <div class="services__content">
+            <div>
+              <i class="fa-solid fa-arrows-left-right services__icon"></i>
+              <h3 class="services__title">
+                Frontend<br />
+                Developer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="fa-solid fa-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Frontend<br />
+                  Developer
+                </h4>
+                <i class="fa-solid fa-xmark services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>Web page development</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I position your company brand.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Services 3 -->
+          <div class="services__content">
+            <div>
+              <i class="fa-solid fa-pen services__icon"></i>
+              <h3 class="services__title">
+                Branding <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              View More
+              <i class="fa-solid fa-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Branding <br />
+                  Designer
+                </h4>
+                <i class="fa-solid fa-xmark services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I develop the user interface.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>Web page development</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I create UX element interactions.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i
+                      class="fa-solid fa-circle-check services__modal-icon"
+                    ></i>
+                    <p>I position your company brand.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+
+      <!-- Portfolio -->
+
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Portfolio 1-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="images/portfolio1.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Modern Website</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 2-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="images/portfolio2.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Brand Design</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 3-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="images/portfolio3.jpg" class="portfolio__img" />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Online Store</h3>
+                <p class="portfolio__description">
+                  Website adaptable to all devices, with ui components and
+                  animated interactions.
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Adding Arrows -->
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-angle-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-angle-left swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+
+      <!-- Testimonial -->
+
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">My client saying</span>
+
+        <div class="testimonial__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Testimonial 1 -->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="images/testimonial1.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial__name">Sara</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i
+                    class="fa-solid fa-star-half-stroke testimonial__icon-star"
+                  ></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                fuga molestiae magnam commodi, delectus iste.
+              </p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="images/testimonial2.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial__name">Matt</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-regular fa-star testimonial__icon-star"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                fuga molestiae magnam commodi, delectus iste.
+              </p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial__content swiper-slide">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="images/testimonial3.jpg"
+                    alt=""
+                    class="testimonial__img"
+                  />
+
+                  <div>
+                    <h3 class="testimonial__name">Raul</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                  <i class="fa-solid fa-star testimonial__icon-star"></i>
+                </div>
+              </div>
+
+              <p class="testimonial__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                fuga molestiae magnam commodi, delectus iste.
+              </p>
+            </div>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination swiper-pagination-testimonial"></div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+
+      <!-- Contact Me -->
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">777--777--666</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >bhandaripradeep41@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="fa-solid fa-location-arrow contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Mumbai - Maharashtra</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name</label>
+                <input id="name" type="text" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input id="email" type="email" class="contact__input" />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="project" class="contact__label">Project</label>
+              <input id="project" type="text" class="contact__input" />
+            </div>
+
+            <div class="contact__content">
+              <label for="textarea" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id="textarea"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a href="" class="button button--flex">
+                Send Message
+                <i class="fa-solid fa-rocket button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact Me -->
+    </main>
+
+    <!-- === Main === -->
+
+    <!-- === Footer === -->
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h2 class="footer__title">Pradeep</h2>
+            <span class="footer__subtitle">Frontend developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://dribbble.com/Pradeep0209"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="fa-solid fa-basketball"></i>
+            </a>
+
+            <a
+              href="https://medium.com/@Pradeep_bhandari"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="fa-brands fa-medium"></i>
+            </a>
+
+            <a
+              href="https://dev.to/pradeep_bhandari"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="fa-brands fa-dev"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Pradeep. All right reserved</p>
+        <p class="footer__info">
+          All the info is dummy. To know about me download my
+          <a href="#about">CV</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- === Footer === -->
+
+    <!-- === Scroll Top === -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- === Scroll Top === -->
+
+    <!-- Swiper Js -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript Script Tag -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
